@@ -16,9 +16,9 @@ function Education() {
       <h3 className="text-3xl font-bold mb-8">My Academic Background</h3>
       <div className="space-y-8">
         {[
-          { degree: "Bachelor of Technology in Computer Science", institution: "Modern Institute of Technology and Research Center", year: "2021 - 2025" },
-          { degree: "Senior Secondary Education", institution: "SGHPS", year: "2020 - 2021" },
-          { degree: "Secondary Education", institution: "SGHPS", year: "2018 - 2019" },
+          { degree: "Bachelor of Technology in Computer Science", institution: "Modern Institute of Technology and Research Center", year: "2021 - 2025",link:"https://drive.google.com/file/d/1gPNkmVyxgbZVxXVJIljdMH5GUQSbdt5D/view?usp=sharing" },
+          { degree: "Senior Secondary Education", institution: "SGHPS", year: "2020 - 2021", link:"https://drive.google.com/file/d/1TFUjFoXFSU3HDbbZvdvIlgq6kT1Z6Bj-/view?usp=sharing"},
+          { degree: "Secondary Education", institution: "SGHPS", year: "2018 - 2019", link:"https://drive.google.com/file/d/1ieNdSwXD211byF-HoW12oysovt0kwd8t/view?usp=sharing"},
         ].map((edu, index) => (
           <motion.div 
             key={index}
@@ -34,7 +34,7 @@ function Education() {
             <div className="sm:flex justify-between"> 
             <div className="ms-6 ps-2"><p className="text-gray-400">{edu.institution}</p>
             <p className="text-gray-500">{edu.year}</p></div>
-            <EducationBtn/>
+            <EducationBtn link={edu.link} name={edu.degree}/>
             </div>
            
           </motion.div>

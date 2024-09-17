@@ -14,7 +14,11 @@ function Services() {
   return (
     <Section id="skills">
     <div className="max-w-6xl mx-auto px-4">
-      <h2 className="text-orange-500 text-2xl mb-2">Skills</h2>
+       <h2 className="text-orange-500 text-sm mb-2">Skills</h2>
+        <h3 className="text-3xl font-bold mb-8 text-white">Languages Known</h3>
+        {/* <p className="text-gray-400 mb-10">
+          Here are some of the valuable internship experiences I've gained. Each opportunity has contributed significantly to my professional growth.
+        </p> */}
       {/* <h3 className="text-3xl font-bold mb-8">What Am I Providing</h3>
       <p className="text-gray-400 mb-10">
         If you want any of the following service please go on the freelance section where you can find some of the freelance platforms where I am available.

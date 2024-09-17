@@ -1,49 +1,54 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
-
+import ed_tech from "../assets/projectoutput/ed-tech.png"
+import instagram from "../assets/projectoutput/instagram.jpg"
+import ai_assistance from "../assets/projectoutput/AI_Assistant.png"
+import portfolio from "../assets/projectoutput/portfolio.png"
+import BI from "../assets/projectoutput/BI-img.png"
+import instagram_analysis from "../assets/projectoutput/Instagram-data-analysis.jpg"
 const projects = [
   {
-    title: "E-commerce Platform",
-    description: "A full-stack e-commerce solution with React and Node.js",
-    image: "/placeholder.svg?height=200&width=200",
-    github: "https://github.com/yourusername/ecommerce-platform",
-    live: "https://ecommerce-platform-demo.com"
+    title: "Ed-Tech Platform",
+    description: "A full-stack EdTech solution with JS and PHP",
+    image: ed_tech,
+    github: "https://github.com/Nancy2707/edtech-platform",
+    live: "https://edtech-platform-d4is.vercel.app/"
   },
   {
-    title: "Weather App",
+    title: "Instagram Clone",
     description: "Real-time weather forecasting using OpenWeatherMap API",
-    image: "/placeholder.svg?height=200&width=200",
-    github: "https://github.com/yourusername/weather-app",
-    live: "https://weather-app-demo.com"
+    image: instagram,
+    github: "https://github.com/Nancy2707/instagram-clone-code",
+    live: "https://instagram-clone-code.vercel.app/"
   },
   {
-    title: "Task Manager",
+    title: "AI Assistant",
     description: "A productivity app built with React and Firebase",
-    image: "/placeholder.svg?height=200&width=200",
-    github: "https://github.com/yourusername/task-manager",
-    live: "https://task-manager-demo.com"
+    image: ai_assistance,
+    github: "https://github.com/Nancy2707/Nancy_Portfolio",
+    live: "https://ai-assistant-three-azure.vercel.app/"
   },
   {
     title: "Portfolio Website",
-    description: "A responsive portfolio website using Next.js",
-    image: "/placeholder.svg?height=200&width=200",
-    github: "https://github.com/yourusername/portfolio",
-    live: "https://your-portfolio.com"
+    description: "A responsive portfolio website using React.js",
+    image: portfolio,
+    github: "https://github.com/Nancy2707/Nancy_Portfolio",
+    live: "https://my-portfolio-three-coral-32.vercel.app/"//needs updation
   },
   {
-    title: "Blog Platform",
-    description: "A full-featured blog platform with user authentication",
-    image: "/placeholder.svg?height=200&width=200",
-    github: "https://github.com/yourusername/blog-platform",
-    live: "https://blog-platform-demo.com"
+    title: "Sales Analysis Using PowerBI",
+    description: "A analysing the sales of a store using powerBI dashboard",
+    image: BI,
+    github: "https://github.com/Nancy2707/Deep-Learning/tree/main/PowerBI",
+    live: "https://www.linkedin.com/posts/nancy-sharma2707_powerbi-datavisualization-industrialtraining-activity-7219310894059511810-SdjY?utm_source=share&utm_medium=member_desktop"
   },
   {
-    title: "Movie Database",
-    description: "A movie information app using the TMDB API",
-    image: "/placeholder.svg?height=200&width=200",
-    github: "https://github.com/yourusername/movie-database",
-    live: "https://movie-database-demo.com"
+    title: "Instagram Data Analysis",
+    description: "Analysing the data of Instagram reach using Machine Learning ",
+    image: instagram_analysis,
+    github: "https://github.com/Nancy2707/Deep-Learning/tree/main/Instagram_data_analysis",
+    live: "https://www.linkedin.com/posts/nancy-sharma2707_deeplearning-instagramanalysis-datascience-activity-7219670632681127937-9WNP?utm_source=share&utm_medium=member_desktop"
   }
 ]
 
