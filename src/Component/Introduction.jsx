@@ -69,12 +69,19 @@ function Introduction() {
     </div>
         </motion.h1>
         <div className="flex space-x-2 mb-4 text-3xl">
-          {[FaInstagram, FaXTwitter, FaLinkedin, FaTelegram, FaGithub].map((Icon, index) => (
-            <a key={index} href="#" className="text-gray-400 hover:text-white">
-              <Icon />
-            </a>
-          ))}
-        </div>
+  {[
+    { Icon: FaInstagram, link: "https://www.instagram.com/_nancyshr_/" },
+    { Icon: FaXTwitter, link: "https://x.com/NancyS5043" },
+    { Icon: FaLinkedin, link: "www.linkedin.com/in/nancy-sharma2707" },
+    { Icon: FaTelegram, link: "https://t.me/nancy27072004" },
+    { Icon: FaGithub, link: "https://github.com/Nancy2707" },
+  ].map(({ Icon, link }, index) => (
+    <a key={index} href={link} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+      <Icon />
+    </a>
+  ))}
+</div>
+
         <motion.button 
           className="bg-orange-500 text-white px-6 py-2 rounded-full"
           whileHover={{ scale: 1.05 }}
